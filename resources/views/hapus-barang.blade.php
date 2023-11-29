@@ -14,13 +14,11 @@
 <h1>SELAMAT DATANG DI KASIR</h1>
 <table class="table table-dark table-striped">
     <thead>
-    
       <tr>
         <th scope="col">No</th>
         <th scope="col">Nama Produk</th>
         <th scope="col">Harga</th>
         <th scope="col">Stok</th>
-        <th scope="col">Edit</th>
       </tr>
     </thead>
     <tbody>
@@ -29,21 +27,16 @@
         <td>mie</td>
         <td>2.500</td>
         <td>3</td>
-        <td>
-        <a href="hapus-barang" class="btn btn-danger">Hapus</a>
-        <a href="hapus-barang" class="btn btn-success">Update</a>
-        </td>
       </tr>
       <tr>
         <th scope="row">2</th>
         <td>Minyak</td>
         <td>28.000</td>
         <td>1</td>
-        <td>
-            <a href="hapus-barang" class="btn btn-danger">Hapus</a>
-            <a href="hapus-barang" class="btn btn-success">Update</a>
-        </td>
       </tr>
+      <td>
+        <a href="hapus-barang" class="btn btn-danger">Hapus</a>
+      </td>
     </tbody>
   </table>
 </div>
