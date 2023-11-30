@@ -24,4 +24,5 @@ Route::get('logkasir', [loginController::class, 'log']);
 Route::get('logout', [loginController::class, 'logout']);
 Route::get('register', [loginController::class, 'register']);
 Route::get('home', [halamanController::class, 'home']);
+Route::get('produk', [halamanController::class, 'produk']);
 Route::get('hapus-barang', [halamanController::class, 'delete']);

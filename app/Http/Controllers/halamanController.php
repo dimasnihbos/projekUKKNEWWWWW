@@ -16,4 +16,8 @@ class halamanController extends Controller
   
          return redirect()->back();
       }
+
+    function produk() {
+        return view('produk');
+    }  
 }

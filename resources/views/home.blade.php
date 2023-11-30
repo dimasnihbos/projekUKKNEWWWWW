@@ -11,41 +11,9 @@
 @include('layout.navbar')
 <div class="welcome">
 <div class="container">
-<h1>SELAMAT DATANG DI KASIR</h1>
-<table class="table table-dark table-striped">
-    <thead>
-    
-      <tr>
-        <th scope="col">No</th>
-        <th scope="col">Nama Produk</th>
-        <th scope="col">Harga</th>
-        <th scope="col">Stok</th>
-        <th scope="col">Edit</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>mie</td>
-        <td>2.500</td>
-        <td>3</td>
-        <td>
-        <a href="hapus-barang" class="btn btn-danger">Hapus</a>
-        <a href="hapus-barang" class="btn btn-success">Update</a>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Minyak</td>
-        <td>28.000</td>
-        <td>1</td>
-        <td>
-            <a href="hapus-barang" class="btn btn-danger">Hapus</a>
-            <a href="hapus-barang" class="btn btn-success">Update</a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+<h1>SELAMAT DATANG DI KASIR ONLINE</h1>
+<h2>SILAHKAN BERBELANJA & MELAKUKAN TRANSAKSI</h2>
+
 </div>
 </div>
 </body>
