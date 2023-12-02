@@ -29,11 +29,12 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
+              Produk
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="produk">Produk</a></li>
-              <li><a class="dropdown-item" href="#">Tambah Produk</a></li>
+              <li><a class="dropdown-item" href="produk">Data Produk</a></li>
+              <li><a class="dropdown-item" href="tambahstok">Tambah Stok</a></li>
+              <li><a class="dropdown-item" href="#">Penjualan</a></li>
             </ul>
           </li>
         </ul>

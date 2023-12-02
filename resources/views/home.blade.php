@@ -11,7 +11,7 @@
 @include('layout.navbar')
 <div class="welcome">
 <div class="container">
-<h1>SELAMAT DATANG DI KASIR ONLINE</h1>
+<h1>SELAMAT DATANG DI ONLINE KASIR</h1>
 <h2>SILAHKAN BERBELANJA & MELAKUKAN TRANSAKSI</h2>
 
 </div>
