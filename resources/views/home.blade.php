@@ -10,7 +10,7 @@
 <body>
 @include('layout.navbar')
 <div class="welcome">
-<div class="container">
+<div class="container" style="color: rgb(202, 223, 243)">
 <h1>SELAMAT DATANG DI ONLINE KASIR</h1>
 <h2>SILAHKAN BERBELANJA & MELAKUKAN TRANSAKSI</h2>
 

@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\produk;
+use App\Models\pelanggan;
+
 
 class halamanController extends Controller
 {
@@ -24,5 +26,13 @@ class halamanController extends Controller
         $data = produk::all();
 
         return view('produk', ['Data Produk' => $produk, 'produk' => $data]);
+    }  
+
+    function pelanggan() {
+        $pelanggan = "Data Pelanggan";
+
+        $data = pelanggan::all();
+
+        return view('pelanggan', ['Data Pelanggan' => $pelanggan, 'pelanggan' => $data]);
     }  
 }

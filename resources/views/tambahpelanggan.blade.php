@@ -12,7 +12,7 @@
     <br>
     <br>
     <div style="color: aliceblue">
-    <h3 style="text-align:center;">{{$tambah}}</h3>
+    <h3 style="text-align:center;">Tambah Pelanggan</h3>
     <div class="container text-center">
         <div class="row">
           <div class="col">
@@ -20,16 +20,16 @@
           </div>
           <div class="col">
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="col-form-label">Nama Produk</label>
-              <input class="form-control" type="text"  name="produk" aria-label="default input example">
+              <label for="exampleFormControlTextarea1" class="col-form-label">Nama </label>
+              <input class="form-control" type="text"  name="nama" aria-label="default input example">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="col-form-label">Harga</label>
-                <input class="form-control" type="text"  name="harga" aria-label="default input example">
+                <label for="exampleFormControlTextarea1" class="col-form-label">Alamat</label>
+                <input class="form-control" type="text"  name="alamat" aria-label="default input example">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="col-form-label">Stok</label>
-                <input class="form-control" type="text"  name="stok" aria-label="default input example">
+                <label for="exampleFormControlTextarea1" class="col-form-label">No Telp</label>
+                <input class="form-control" type="text"  name="notelp" aria-label="default input example">
             </div>
           <input class="btn btn-primary" type="submit" value="Tambah"> 
           </div>

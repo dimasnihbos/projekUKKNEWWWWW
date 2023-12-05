@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+
 
 class produkContorller extends Controller
 {
@@ -12,9 +14,37 @@ class produkContorller extends Controller
         return view('tambahproduk', ['tambah' => $tambah]);
     }
     
-    function update() {
-        $update = "Update Stok";
+    function edit($id){
+        $id = (int) $id;        
+        
+        $affected = DB::table('produk')
+              ->where('ProdukID', $id)
+              ->update(['produk' => request()->NamaProduk]);
 
-        return view('updatestok', ['update' => $update]);
+    return redirect('produk');
     }
+
+
+    function update($id)
+    {
+        $produk = DB::table('produk')
+            ->where('ProdukID', '=', $id)
+            ->first();
+        return view('updatestok', ['produk' => $produk]);
+    }
+
+    function perbarui(Request $request, $id){
+        $stok = $request->Stok;
+        DB::table('produk')->where('ProdukID', $id)
+        ->update([
+            'Stok' => $stok,
+        ]);
+        return redirect("/produk");
+    }
+
+    function delete($id){
+        $produk = DB :: table('produk')->where('ProdukID', '=', $id)->delete();
+  
+         return redirect()->back();
+      }
 }

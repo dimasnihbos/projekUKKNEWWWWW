@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>isi-masyarakat</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/style1.css">
 </head>
 <body>
 @include('layout.navbar') 
      <br>
      <br>
+     <div style="color: aliceblue">
      <h3 style="text-align:center;">{{$regis}}</h3>
         <form action="regis" method="POST" enctype="multipart/form-data">
             <div class="container">
@@ -47,7 +48,7 @@
                       </div>
                     </div>
                   </div>
-
+                </div>
                 
         </form> 
 </body>
