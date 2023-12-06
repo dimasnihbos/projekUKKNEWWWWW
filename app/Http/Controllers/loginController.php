@@ -19,6 +19,15 @@ function log()
         return view('login', ['login' => $login]);
     }
 
+    // function createlog(Request $request){
+    //     $login = $request -> only("username", "password");
+    //     if(Auth::attempt($login)){
+    //         return redirect("/home");
+    //     }else{
+    //         return redirect("/login")->with("error","username atau password salah");
+    //     }
+    // }
+
     function logout(){
         Auth::logout();
 

@@ -19,13 +19,15 @@
     <div class="container text-center">
         <div class="row">
           <div class="col">
+            <div>
             <div class="mb-3">
               <div class="container">
                 <label for="exampleFormControlTextarea1" class="col-form-label">Stok</label>
                 <input class="form-control" type="number"  name="Stok" aria-label="default input example">
             </div>
-          <input class="btn btn-success" type="submit" value="submit"> 
+          <input class="btn btn-success" type="submit" value="Update"> 
           </div>
+        </div>
           <div class="col">
             </div>
           </div>

@@ -11,5 +11,5 @@ class pelanggan extends Model
     public $timestamps = false;
     protected $table = "pelanggan";
 
-    protected $fillable = ['PelangganID', 'NamaPelanggan', 'Alamat', 'NomorTelepon'];
+    protected $fillable = ['NamaPelanggan', 'Alamat', 'NomorTelepon'];
 }

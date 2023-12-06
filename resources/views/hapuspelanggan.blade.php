@@ -9,7 +9,7 @@
 </head>
 <body>
 @include('layout.navbar')
-<div class="produk">
+<div class="pelanggan">
 <div class="container" style="color: aliceblue">
 <h1>PELANGGAN</h1>
 
