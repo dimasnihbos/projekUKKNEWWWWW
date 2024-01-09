@@ -34,7 +34,6 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="produk">Data Produk</a></li>
               <li><a class="dropdown-item" href="tambahstok">Tambah Stok</a></li>
-              <li><a class="dropdown-item" href="#">Penjualan</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -51,8 +50,8 @@
                 Penjualan
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Penjualan</a></li>
-                <li><a class="dropdown-item" href="penjualan">Data Penjualan</a></li>
+                <li><a class="dropdown-item" href="penjualan">Penjualan</a></li>
+                <li><a class="dropdown-item" href="datapenjualan">Data Penjualan</a></li>
                 <li><a class="dropdown-item" href="detail">Detail Penjualan</a></li>
               </ul>
             </li>

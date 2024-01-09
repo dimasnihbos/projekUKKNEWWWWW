@@ -35,9 +35,13 @@ class produkContorller extends Controller
 
     function perbarui(Request $request, $id){
         $stok = $request->Stok;
+        $harga = $request->Harga;
+        $nama = $request->NamaProduk;
         DB::table('produk')->where('ProdukID', $id)
         ->update([
             'Stok' => $stok,
+            'Harga' => $harga,
+            'NamaProduk' => $nama,
         ]);
         return redirect("/produk");
     }

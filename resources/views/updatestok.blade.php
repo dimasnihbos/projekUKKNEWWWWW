@@ -20,6 +20,14 @@
         <div class="row">
           <div class="col">
             <div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="col-form-label">Nama</label>
+                <input class="form-control" type="text"  name="NamaProduk" aria-label="default input example">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="col-form-label">Harga</label>
+              <input class="form-control" type="text"  name="Harga" aria-label="default input example">
+          </div>
             <div class="mb-3">
               <div class="container">
                 <label for="exampleFormControlTextarea1" class="col-form-label">Stok</label>

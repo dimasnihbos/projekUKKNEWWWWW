@@ -13,4 +13,10 @@ class penjualanController extends Controller
     function detail(){
         return view('detail');
     }
+
+    function beli() {
+        $penjualan = "Penjualan";
+
+        return view('penjualan', ['penjualan' => $penjualan]);
+    }
 }

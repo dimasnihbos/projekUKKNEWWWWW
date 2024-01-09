@@ -46,5 +46,6 @@ Route::post('/updatepelanggan/{id}', [pelangganController::class, 'perbarui']);
 Route::get('/updatepelanggan/{id}', [pelangganController::class, 'tampil']);
 Route::put('/update/{id}', [pelangganController::class, 'edit'])->name('edit');
 
-Route::get('penjualan', [penjualanController::class, 'penjualan']);
+Route::get('datapenjualan', [penjualanController::class, 'penjualan']);
 Route::get('detail', [penjualanController::class, 'detail']);
+Route::get('penjualan', [penjualanController::class, 'beli']);
